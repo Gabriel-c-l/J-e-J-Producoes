@@ -1,0 +1,139 @@
+body{
+    background-color: #0E3F6B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: "Radio Canada", sans-serif;
+    overflow: hidden;
+}
+
+title{
+    font-family: "Lobster", sans-serif;
+}
+
+.logotxt{
+    font-family: "Lobster", sans-serif;
+}
+
+header{
+    height: 15vw;
+    padding-bottom: 25px;
+}
+
+.news{
+    padding-left: 70px; 
+    padding-right: 70px;
+    width: 80%;
+}
+
+.newstxtContainer{
+    gap: 50px;
+}
+
+.newsdivContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user{
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: #0085FF;
+    align-items: center;
+    gap: 20px;
+}
+
+header{
+    align-items: center;
+    gap: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.newsImgContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    max-width: 100px;
+}
+
+.userWay{
+    border-radius: 20px;
+    height: 49.5vw;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.otherNews{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.aboutnews{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.otherNewsImgContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.otherNewsP1{
+    width: 70%
+}   
+
+button{
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #0E3F6B;
+    background-color: #0085FF;
+    color: white;
+}
+
+button:hover{
+    border: 1px solid #0085FF;
+    background-color:  #0E3F6B;
+    color: white;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.imgUser{
+    height: 75px;
+}
+
+.imgDecor{
+    border: 2px solid #0085FF;
+    height: 100px;
+    max-width: 500px;
+}
+
